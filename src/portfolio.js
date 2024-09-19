@@ -1,19 +1,18 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  title: 'MG.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Manon',
+  role: 'développeuse web',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    "Créative et passionnée, je conçois et développe des sites web sur mesure qui allient esthétique et fonctionnalité. Mon savoir-faire en design graphique me permet de créer des expériences visuelles harmonieuses, tout en garantissant une navigation fluide et intuitive pour les utilisateurs.Mon approche est centrée sur la compréhension des besoins de mes clients afin de réaliser des projets uniques, parfaitement adaptés à leur identité. Chaque détail compte, et je m'efforce de livrer des solutions qui marient créativité, performance, et impact visuel.",
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/manon-goliot-8122461a0/',
+    github: 'https://github.com/Manon13',
   },
 }
 
@@ -21,29 +20,57 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Booki',
+    image: 'http://localhost:3000/cleanfolio/images/booki.png',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "Création de la page d'accueil d'une agence de voyage en intégrant une interface responsive s'adaptant à différents types d'appareils. Structuration et stylisme du code pour assurer une expérience utilisateur optimale.",
+    stack: ['HTML', 'CSS', 'W3C'],
+    sourceCode: 'https://github.com/Manon13/Booki',
+    livePreview: 'https://manon13.github.io/Booki/',
   },
   {
-    name: 'Project 2',
+    name: 'Kasa',
+    // image: 'http://localhost:3000/images/kasa.png',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "Développement du front-end d’une application web de location immobilière en utilisant React et React Router pour une navigation fluide et réactive. Création de composants, gestion de la navigation entre les pages et implémentation d'animations CSS avec Sass pour une interface moderne et dynamique.",
+    stack: ['React', 'React-Router', 'Vite', 'SASS'],
+    sourceCode: 'https://github.com/Manon13/Kasa',
+    livePreview: 'https://manon13-kasa.netlify.app/',
   },
   {
-    name: 'Project 3',
+    name: 'Nina Carducci',
+    // image: 'http://localhost:3000/images/nina_carducci.png',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "Optimisation du SEO avec l'amélioration du référencement naturel, des performances et de l'accessibilité du site internet de la photographe Nina Carducci. Débogage du site et optimisation du code et du temps de chargement.",
+    stack: ['SEO', 'Lighthouse', 'Wave', 'Schema.org'],
+    sourceCode: 'https://github.com/Manon13/Nina-Carducci/tree/optimisation',
+    livePreview: 'https://manon13.github.io/Nina-Carducci/',
   },
+  {
+    name: 'Mon Vieux Grimoire',
+    // image: 'http://localhost:3000/images/mon_vieux_grimoire.png',
+    description:
+      "Développement d'une API pour un site de notation de livres. Mise en place des opérations CRUD pour les livres et notations, implémentation d'un système d'authentification sécurisé et optimisation des images. Respect des pratiques du Green Code pour une application conforme et éco-responsable.",
+    stack: ['Express', 'Node.js', 'MongoDB', 'Green Code'],
+    sourceCode: 'https://github.com/Manon13/Mon-Vieux-Grimoire',
+  },
+  // {
+  //   name: 'Sophie Bluel',
+  //   // image: 'http://localhost:3000/images/.png',
+  //   description:
+  //     "",
+  //   stack: ['SEO', 'Lighthouse', 'Wave', 'Schema.org'],
+  //   sourceCode: 'https://github.com/Manon13/Nina-Carducci/tree/optimisation',
+  //   livePreview: 'https://manon13.github.io/Nina-Carducci/',
+  // },
+  {
+    name: 'Dungeon Disaster',
+    // image: 'http://localhost:3000/images/.png',
+    description:
+      "Développement de Dungeon Disaster, un site web dédié aux joueurs de World of Warcraft, conçu pour fournir des guides interactifs sur les donjons. Ce projet inclut une analyse détaillée des boss, des fonctionnalités de questions-réponses et une interface engageante développée avec React et SASS, mettant l'accent sur l'interactivité et l'expérience utilisateur.",
+    stack: ['React', 'React-Router', 'Sass'],
+    livePreview: 'https://dungeon-disaster.com/',
+  }
 ]
 
 const skills = [
@@ -52,20 +79,28 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
-  'Redux',
   'SASS',
-  'Material UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'GitHub',
+  'SEO',
+  'Lighthouse',
+  'Wave',
+  'Schema.org',
+  'W3C',
+  'Green Code',
+  'Express',
+  'Node.js',
+  'MongoDB',
+  'Responsive Design',
+  'Web Accessibility',
+  'Performance Optimization',
+  'User Experience',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'manonn.g@outlook.fr',
 }
 
 export { header, about, projects, skills, contact }
