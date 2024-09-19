@@ -51,7 +51,7 @@ const projects = [
     image: 'http://localhost:3000/images/nina_carducci.png',
     description:
       "Optimisation du SEO avec l'amélioration du référencement naturel, des performances et de l'accessibilité du site internet de la photographe Nina Carducci. Débogage du site et optimisation du code et du temps de chargement.",
-    stack: ['SEO', 'Lighthouse', 'Wave', 'Schema.org'],
+    stack: ['SEO', 'Lighthouse', 'Wave', 'Schema.org', 'Accessibilité web', 'Optimisation des performances'],
     sourceCode: 'https://github.com/Manon13/Nina-Carducci/tree/optimisation',
     livePreview: 'https://manon13.github.io/Nina-Carducci/',
   },
@@ -94,9 +94,8 @@ const skills = [
   'npm',
   'MongoDB',
   'Responsive Design',
-  'Web Accessibility',
-  'Performance Optimization',
-  'User Experience',
+  'Accessibilité web',
+  'Optimisation des performances',
 ]
 
 const contact = {
