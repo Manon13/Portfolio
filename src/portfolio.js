@@ -21,7 +21,7 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Booki',
-    image: 'http://localhost:3000/images/booki.png',
+    image: 'images/booki.png',
     description:
       "Création de la page d'accueil d'une agence de voyage en intégrant une interface responsive s'adaptant à différents types d'appareils. Structuration et stylisme du code pour assurer une expérience utilisateur optimale.",
     stack: ['HTML', 'CSS', 'W3C', 'Responsive Design'],
@@ -30,7 +30,7 @@ const projects = [
   },
   {
     name: 'Sophie Bluel',
-    image: 'http://localhost:3000/images/sophie_bluel.png',
+    image: 'images/sophie_bluel.png',
     description:
       "Création d'une page web dynamique pour le site d'une architecte d'intérieur, utilisant JavaScript pour gérer les interactions utilisateur et manipuler le DOM. Le projet inclut une page de présentation des travaux, une page de connexion pour l'administrateur et une modale pour le téléchargement de médias",
     stack: ['JavaScript', 'Node.js', 'npm', 'GitHub'],
@@ -39,7 +39,7 @@ const projects = [
   },
   {
     name: 'Kasa',
-    image: 'http://localhost:3000/images/kasa.png',
+    image: '/images/kasa.png',
     description:
       "Développement du front-end d’une application web de location immobilière en utilisant React et React Router pour une navigation fluide et réactive. Création de composants, gestion de la navigation entre les pages et implémentation d'animations CSS avec Sass pour une interface moderne et dynamique.",
     stack: ['React', 'React-Router', 'Vite', 'SASS'],
@@ -48,7 +48,7 @@ const projects = [
   },
   {
     name: 'Nina Carducci',
-    image: 'http://localhost:3000/images/nina_carducci.png',
+    image: '/images/nina_carducci.png',
     description:
       "Optimisation du SEO avec l'amélioration du référencement naturel, des performances et de l'accessibilité du site internet de la photographe Nina Carducci. Débogage du site et optimisation du code et du temps de chargement.",
     stack: ['SEO', 'Lighthouse', 'Wave', 'Schema.org', 'Accessibilité web', 'Optimisation des performances'],
@@ -57,7 +57,7 @@ const projects = [
   },
   {
     name: 'Mon Vieux Grimoire',
-    image: 'http://localhost:3000/images/mon_vieux_grimoire.png',
+    image: '/images/mon_vieux_grimoire.png',
     description:
       "Développement d'une API pour un site de notation de livres. Mise en place des opérations CRUD pour les livres et notations, implémentation d'un système d'authentification sécurisé et optimisation des images. Respect des pratiques du Green Code pour une application conforme et éco-responsable.",
     stack: ['Express', 'Node.js', 'MongoDB', 'Green Code'],
@@ -65,7 +65,7 @@ const projects = [
   },
   {
     name: 'Dungeon Disaster',
-    image: 'http://localhost:3000/images/dungeon_disaster.png',
+    image: '/images/dungeon_disaster.png',
     description:
       "Développement d'un site web dédié aux joueurs de World of Warcraft, conçu pour fournir des guides interactifs sur les donjons. Ce projet inclut des fonctionnalités de questions-réponses et une interface engageante développée avec React et SASS, mettant l'accent sur l'interactivité et l'expérience utilisateur.",
     stack: ['React', 'React-Router', 'Sass', 'Responsive Design'],
