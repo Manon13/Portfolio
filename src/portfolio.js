@@ -1,10 +1,8 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
   title: 'MG.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Manon',
   role: 'développeuse web',
   description:
@@ -16,9 +14,31 @@ const about = {
   },
 }
 
+const formations = [
+  {
+    name: 'Développeur informatique',
+    diplome: 'RNCP de niveau 5',
+    description: '',
+    lieu: 'OpenClassrooms',
+    date: '2024',
+  },
+  {
+    name: 'BTS Assistant de manager',
+    diplome: 'niveau BTS',
+    description: '',
+    lieu: 'CNED Grenoble',
+    date: '2015',
+  },
+  {
+    name: 'BTS Diététique',
+    diplome: 'niveau BTS', 
+    description: 'vvvvvvvvvvvv vvvvvvvvvvvvvvv vvvvvvvvvvvvv vvvvvvvvvvvvvvv',
+    lieu: 'CNED Grenoble',
+    date: '2013',
+  }
+]
+
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
     name: 'Booki',
     image: 'images/booki.png',
@@ -34,8 +54,7 @@ const projects = [
     description:
       "Création d'une page web dynamique pour le site d'une architecte d'intérieur, utilisant JavaScript pour gérer les interactions utilisateur et manipuler le DOM. Le projet inclut une page de présentation des travaux, une page de connexion pour l'administrateur et une modale pour le téléchargement de médias",
     stack: ['JavaScript', 'Node.js', 'npm', 'GitHub'],
-    sourceCode: 'https://github.com/Manon13/Nina-Carducci/tree/optimisation',
-    livePreview: 'https://manon13.github.io/Nina-Carducci/',
+    sourceCode: 'https://github.com/Manon13/Sophie-Bluel',
   },
   {
     name: 'Kasa',
@@ -74,8 +93,6 @@ const projects = [
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
@@ -99,8 +116,7 @@ const skills = [
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'manonn.g@outlook.fr',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, formations, projects, skills, contact }

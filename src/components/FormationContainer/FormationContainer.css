@@ -1,0 +1,36 @@
+#formation{
+    margin-top: 5em;
+}
+
+.formation {
+    padding: 2em;
+    margin: 0;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s linear;
+  }
+  
+  .formation:hover {
+    transform: translateY(-7px);
+  }
+  
+  .formation__description {
+    margin-top: 1em;
+    font-size: 1rem;
+    color: var(--clr-fg-alt);
+  }
+  
+  .formation__lieu, .formation__date {
+    margin-top: 0.5em;
+    font-size: 0.9rem;
+    color: var(--clr-fg-alt);
+  }
+  
+  .formation__lieu {
+    font-style: italic;
+  }
+  
+  .formation__date {
+    font-weight: bold;
+    color: var(--clr-fg);
+  }
