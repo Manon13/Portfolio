@@ -13,6 +13,10 @@
   .formation:hover {
     transform: translateY(-7px);
   }
+
+  .formation__diplome {
+    margin-top: 0.5em;
+  }
   
   .formation__description {
     margin-top: 1em;
@@ -21,16 +25,17 @@
   }
   
   .formation__lieu, .formation__date {
-    margin-top: 0.5em;
     font-size: 0.9rem;
     color: var(--clr-fg-alt);
   }
   
   .formation__lieu {
+    margin-top: 1.2em;
     font-style: italic;
   }
   
   .formation__date {
+    margin-top: 0.5em;
     font-weight: bold;
     color: var(--clr-fg);
   }

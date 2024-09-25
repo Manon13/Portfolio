@@ -3,7 +3,7 @@ const header = {
 }
 
 const about = {
-  name: 'Manon',
+  name: 'Manon Goliot',
   role: 'développeuse web',
   description:
     "Créative et passionnée, je conçois et développe des sites web sur mesure qui allient esthétique et fonctionnalité. Mon savoir-faire en design graphique me permet de créer des expériences visuelles harmonieuses, tout en garantissant une navigation fluide et intuitive pour les utilisateurs.Mon approche est centrée sur la compréhension des besoins de mes clients afin de réaliser des projets uniques, parfaitement adaptés à leur identité. Chaque détail compte, et je m'efforce de livrer des solutions qui marient créativité, performance, et impact visuel.",
@@ -18,21 +18,21 @@ const formations = [
   {
     name: 'Développeur informatique',
     diplome: 'RNCP de niveau 5',
-    description: '',
+    description: "Formation axée sur la création de sites et d'applications web modernes, en couvrant à la fois le développement front-end et back-end. J'ai appris à concevoir des interfaces dynamiques, à gérer des bases de données, et à développer des API, tout en utilisant des outils de gestion de version et de collaboration.",
     lieu: 'OpenClassrooms',
     date: '2024',
   },
   {
     name: 'BTS Assistant de manager',
     diplome: 'niveau BTS',
-    description: '',
+    description: "Formation axée sur l’accompagnement des managers à travers la gestion administrative, l’organisation de réunions, et la coordination de projets. J'y ai développé des compétences en communication, gestion de planning, et utilisation d’outils bureautiques.",
     lieu: 'CNED Grenoble',
     date: '2015',
   },
   {
     name: 'BTS Diététique',
     diplome: 'niveau BTS', 
-    description: 'vvvvvvvvvvvv vvvvvvvvvvvvvvv vvvvvvvvvvvvv vvvvvvvvvvvvvvv',
+    description: "Formation spécialisée dans la nutrition et la santé, centrée sur l’élaboration de régimes alimentaires adaptés à divers besoins. J'ai acquis des compétences en évaluation des besoins nutritionnels, planification de menus équilibrés, prévention et éducation en matière de santé, ainsi que la gestion de la qualité alimentaire.",
     lieu: 'CNED Grenoble',
     date: '2013',
   }
