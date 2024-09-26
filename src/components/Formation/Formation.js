@@ -7,7 +7,7 @@ const Formation = () => {
     if (!formations.length) return null
     
     return (
-        <section id='formation'>
+        <section id='formations'>
         <h2 className='section__title'>Formations</h2>
     
         <div className='formation__grid'>
